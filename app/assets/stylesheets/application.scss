@@ -1,12 +1,16 @@
-// Graphical variables
-@import "config/fonts";
-@import "config/colors";
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+
+// Importation des définitions de police locales
+@import "config/fonts";  // Assurez-vous que ce fichier contient les définitions pour $body-font et $headers-font
+
+// Importation des variables graphiques et des surcharges de Bootstrap
 @import "config/bootstrap_variables";
+@import "config/colors";
 
-// External libraries
+// Importation des styles de Bootstrap
 @import "bootstrap";
-@import "font-awesome";
 
-// Your CSS partials
-@import "components/index";
-@import "pages/index";
+// Importation des styles spécifiques aux composants
+@import "components/navbar";
+@import "components/button";
+// application.scss
